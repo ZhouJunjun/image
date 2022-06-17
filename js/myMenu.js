@@ -25,7 +25,7 @@ function addSetColorMenu() {
     var span = document.createElement("span");
     span.setAttribute("class", "menu-item-container");
 
-    var colors = ["red", "#31849b"];
+    var colors = ["red", "#31849b", "#ffffff"];
     var divStyle = "width: 20px; height: 20px; margin-top: 10px; margin-right: 5px; display: inline-block; ";
     for (var i = 0; i < colors.length; i++) {
         var div = document.createElement("div");
